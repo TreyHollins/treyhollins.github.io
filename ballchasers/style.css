@@ -1,0 +1,65 @@
+* { box-sizing: border-box; }
+body { font-family:Verdana, Arial, sans-serif;
+       background-color: #FFFFFF;
+}
+#wrapper { background-color: #FFFFFF; 
+           color: #000066;
+           width: 80%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
+} 
+nav { float: left;
+	  width: 150px;
+	  background-color: #dcdee2;
+	  position: relative;
+	  height: 100%;
+} 
+nav ul {list-style-type: none;
+		margin-left: 0;
+		padding: 10px;
+		}
+		
+nav a { text-decoration: none;
+		padding: 10px;
+		font-weight: bold;
+		font-size: 18px
+		}
+		
+nav a:link {color: #5de833; }
+nav a:visited {color: #207f03; }
+nav a:hover {color: #3ed80f; }
+
+main {  display: block; 
+        margin-left: 155px;
+        padding: 20px;
+        background-color: #ffffff;
+        color: #000000;
+} 
+header { background-color: #000000;
+        color: #FFFFFF;  
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+		background-image: url(Images/soccerfield.jpg); 
+		background-repeat: no-repeat;
+}
+h1 { margin-bottom: 0; }
+h2 { color: #000000; 
+     font-family: arial, sans-serif;
+	 font-size: 200%;
+}
+div.static {
+    position: static;
+}
+ul{ list-style-type:none;
+}
+
+footer { font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding: 20px;
+		 background-color: #dcdee2; 
+		 position: relative;
+		 bottom: 0;
+		 width: 100%;
+}
